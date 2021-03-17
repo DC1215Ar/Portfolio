@@ -1,0 +1,605 @@
+@import url("https://use.typekit.net/zhm2hsd.css");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Muli', 'Lato';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background-color: #202020;
+}
+
+.nav-container a {
+  color: #f1f1f1;
+}
+
+.img-logo {
+  margin-top: 5px;
+  width: 50px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  display: none;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  margin-top: 10px;
+  font-family: 'Lato';
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header, .hero-design {
+  display: none;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.hero {
+  background-color: #202020;
+  color: #f1f1f1;
+  text-align: center;
+  font-family: 'Lato';
+}
+
+.hero .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0px 70px 50px 35px;
+      grid-template-rows: 0px 70px 50px 35px;
+  letter-spacing: .05em;
+}
+
+.hero .content .Hello {
+  color: #999999;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.hero .content .Who {
+  color: #999999;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.hero .content .know {
+  color: #999999;
+  font-weight: bold;
+}
+
+.hero .content .scroll {
+  width: 20px;
+  margin: 0px auto 50px;
+}
+
+section {
+  padding: 2em 2em;
+  text-align: center;
+}
+
+.About-me {
+  padding-bottom: 3em;
+  background: #f1f1f1;
+}
+
+.subtitle {
+  margin: 2em auto -1em;
+  color: #777777;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 1.25em;
+  font-weight: bold;
+  letter-spacing: .05em;
+}
+
+.section-desc {
+  color: #202020;
+}
+
+.p1 {
+  line-height: 1.5em;
+}
+
+.CV-down {
+  margin-top: 2em;
+}
+
+.CV-down button {
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 5px;
+  padding: .75em;
+  background: none;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  background: #34ACC4;
+  outline: none;
+  color: #f1f1f1;
+}
+
+.CV-down button:hover {
+  background: #277f91;
+}
+
+.right {
+  display: none;
+}
+
+.services {
+  padding-bottom: 3em;
+  background: #f1f1f1;
+}
+
+.p2 {
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+
+.skill-container ul li {
+  background: #202020;
+  color: #f1f1f1;
+  padding: 2em;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.skill-container ul li .service-title {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.skill-container ul li .service-desc {
+  font-size: .8em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.skill-container ul li .icon-container {
+  height: 150px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.section-desc {
+  line-height: 1.5em;
+  margin-bottom: 4em;
+}
+
+.btn1, .btn2, .btn3 {
+  display: none;
+}
+
+.portfolio .subtitle {
+  margin-bottom: 2em;
+}
+
+.prtfolio-container-transition3 {
+  margin-bottom: 4em;
+}
+
+.subtitle2 {
+  text-transform: uppercase;
+  color: #777777;
+  font-family: 'Lato';
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.Project-title {
+  font-family: 'Lato';
+  font-size: 3em;
+  font-weight: 700;
+  margin: -.3em auto .3em;
+}
+
+.Project-desc {
+  display: none;
+}
+
+.hire {
+  display: none;
+  background: #f1f1f1;
+  padding-top: 4em;
+}
+
+.hire .subtitle {
+  margin-top: 4em;
+}
+
+.hire-me button {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 5px;
+  padding: .75em 2em;
+  background: none;
+  font-family: 'Lato';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  background: #34ACC4;
+  outline: none;
+  color: #f1f1f1;
+}
+
+.hire-me button:hover {
+  background: #277f91;
+}
+
+footer {
+  background: #202020;
+  font-family: 'Lato';
+  font-size: 1em;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .logo {
+  display: none;
+}
+
+footer .img-logo {
+  margin: 2em auto;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+footer ul a {
+  margin-top: 10px;
+  font-family: 'Lato';
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+  padding: 0 1em;
+}
+
+footer .social-header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+footer .social-header-bottom .Behance {
+  margin-top: .15em;
+}
+
+.footer-design {
+  display: none;
+}
+
+@media only screen and (min-width: 1050px) {
+  .About-me, .portfolio {
+    overflow: hidden;
+    text-align: left;
+  }
+  .About-me, .prtfolio-container-transition3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% auto;
+        grid-template-columns: 40% auto;
+  }
+  .About-me .right, .prtfolio-container-transition3 .right {
+    display: -ms-grid;
+    display: grid;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: bold;
+    margin: 6em;
+  }
+  .About-me .right .sub-exp, .prtfolio-container-transition3 .right .sub-exp {
+    margin-bottom: 1em;
+  }
+  .About-me .right .bar, .prtfolio-container-transition3 .right .bar {
+    margin-bottom: 1.5em;
+  }
+  .left, .portfolio-left, .Project-desc {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+  }
+  .services {
+    padding-bottom: 0;
+  }
+  .skill-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .portfolio {
+    background: #ffffff;
+    padding-top: 10em;
+    margin-top: -6em;
+  }
+  .prtfolio-container-transition3 .Project-desc {
+    font-size: .8em;
+    line-height: 1.4em;
+  }
+  .prtfolio-container-transition3 a {
+    margin-right: -5em;
+  }
+  .hero {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    text-align: left;
+  }
+  .hero img {
+    width: 100%;
+    margin-top: -1em;
+    margin-right: -25em;
+  }
+  .hero .content {
+    margin-top: 8em;
+    margin-right: -3em;
+  }
+  .hero .content .scroll {
+    width: auto;
+    margin-top: -1em;
+    margin-left: 7em;
+  }
+  .nav-container {
+    padding: 0 4em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% auto;
+        grid-template-columns: 70% auto;
+  }
+  .nav-container .identity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-container .identity .logo {
+    display: -ms-grid;
+    display: grid;
+    margin: .8em;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    font-family: 'Lato';
+    font-weight: bold;
+  }
+  .nav-container ul {
+    margin-right: 3em;
+  }
+  .nav-container a {
+    margin-right: 1.5em;
+  }
+  .nav-container .social-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: auto;
+  }
+  .nav-container .social-header .behance {
+    margin-top: .2em;
+  }
+  .nav-container .social-header .linkedin {
+    margin-right: 3em;
+  }
+  .About-me {
+    padding-left: 6em;
+  }
+  .About-me .right {
+    margin-left: auto;
+  }
+  .About-me .CV-down {
+    margin: 3.5em 0;
+  }
+  .services {
+    padding: 2em 6.1em;
+  }
+  .services .subtitle {
+    text-align: left;
+    margin-right: 1.5em;
+  }
+  .services .p2 {
+    text-align: left;
+  }
+  .btn1, .btn2, .btn3 {
+    display: block;
+  }
+  .portfolio {
+    margin-top: -8em;
+    padding: 14em 6em;
+  }
+  .prtfolio-container-transition3 a {
+    margin-left: 8em;
+    width: 100%;
+  }
+  .prtfolio-container-transition3 button {
+    cursor: pointer;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+    font-family: 'Lato';
+    font-size: 1.15em;
+    -webkit-text-decoration: underline #34ACC4;
+            text-decoration: underline #34ACC4;
+    outline: none;
+  }
+  button:hover {
+    -webkit-text-decoration: underline #277f91;
+            text-decoration: underline #277f91;
+  }
+  .hire {
+    margin-top: -11em;
+  }
+  .nav-container-bottom {
+    margin-top: -8em;
+  }
+  footer {
+    padding: 4em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% auto auto;
+        grid-template-columns: 30% auto auto;
+  }
+  footer .img-logo {
+    margin-top: 0em;
+    margin-left: -6em;
+  }
+  footer .logo {
+    display: block;
+    margin-top: -3.7em;
+    margin-left: -2em;
+    font-family: 'Lato';
+    font-size: 200;
+  }
+  footer ul {
+    margin-right: 1.5em;
+  }
+  footer .social-header-bottom {
+    margin-left: 17em;
+    margin-right: -7em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-container {
+    padding: 0 12em;
+  }
+  .hero {
+    overflow: hidden;
+    padding-bottom: 37em;
+  }
+  .hero .face {
+    width: 45vw;
+    position: absolute;
+    left: 35em;
+  }
+  .hero .content {
+    position: absolute;
+    left: 17.5em;
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4em;
+    background: #f1f1f1;
+    bottom: -2em;
+    left: 0;
+  }
+  .hero-design {
+    display: block;
+    position: absolute;
+    right: 0em;
+    width: 270px;
+  }
+  .About-me {
+    margin-top: -2em;
+    padding-top: 5em;
+    padding-left: 14em;
+  }
+  .About-me .right {
+    margin-left: 9em;
+  }
+  .services {
+    padding-left: 14em;
+    padding-right: 13.3em;
+  }
+  .services .p2 {
+    text-align: left;
+    margin-right: 36em;
+    padding-bottom: 1em;
+  }
+  .portfolio {
+    padding-left: 14em;
+  }
+  .portfolio .section-desc {
+    margin-right: 44em;
+  }
+  .portfolio .Project-desc {
+    font-size: medium;
+  }
+  .btn1, .btn2, .btn3 {
+    display: block;
+  }
+  footer {
+    padding-left: 8.8em;
+    padding-right: 8em;
+  }
+  .footer-design {
+    display: block;
+    position: absolute;
+    width: 107px;
+    bottom: 100;
+    right: 0;
+    margin-top: -12.6em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

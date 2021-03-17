@@ -1,0 +1,716 @@
+@import url("https://use.typekit.net/zhm2hsd.css");
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    height: 100vh;
+    margin: 0;
+    font-family: 'Muli', 'Lato';
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+img {width: 100%;}
+
+.nav-container {
+
+    background-color: #202020;
+
+    a{
+        color: #f1f1f1;
+    }
+}
+
+.img-logo{
+    margin-top: 5px;
+    width: 50px;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo{
+        display: none;
+    }
+
+
+    ul{
+        display: flex;
+
+        a{
+            margin-top: 10px;
+            font-family: 'Lato';
+            font-size: 1em;
+            font-weight: normal;
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.social-header, .hero-design{
+
+    display: none;
+}
+
+h1{
+    font-weight: 800;
+}
+
+.hero{
+
+    background-color: #202020;
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Lato';
+
+    .content{
+
+        display: grid;
+        grid-template-rows: 0px 70px 50px 35px;
+        letter-spacing: .05em;
+
+        .Hello{
+            color: #999999;
+            font-size: 1.25em;
+            font-weight: bold;
+        }
+
+        .Who{
+            color: #999999;
+            font-size: 1.25em;
+            font-weight: bold;
+        }
+
+        .know{
+            color: #999999;
+            font-weight: bold;
+        }
+
+        .scroll{
+            width: 20px;
+            margin: 0px auto 50px;
+        }
+
+    }
+}
+
+section{
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.About-me{
+    padding-bottom: 3em;
+    background: #f1f1f1;
+
+}
+
+.subtitle{
+    
+    margin: 2em auto -1em;
+    color: #777777;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 1.25em;
+    font-weight: bold;
+    letter-spacing: .05em;
+
+}
+
+.section-desc {
+    color: #202020;
+}
+
+.p1{
+    line-height: 1.5em; 
+ }
+
+.CV-down{
+
+    margin-top:  2em;
+
+    button{
+
+        cursor: pointer;
+        border: none;
+        box-shadow: none;
+        border-radius: 5px;
+        padding: .75em;
+        background: none;
+        font-family: 'Lato';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1em;
+        background: #34ACC4;
+        outline: none;
+        color: #f1f1f1;
+
+    }
+
+    button:hover {
+
+        background: #277f91;
+    }
+}
+
+.right{
+    display: none;
+}
+
+.services{
+    padding-bottom: 3em;
+    background: #f1f1f1;
+}
+
+.p2{
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+.skill-container ul li{
+
+    background: #202020;
+    color: #f1f1f1;
+    padding: 2em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+
+    .service-title{
+
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: bold;
+
+    }
+
+    .service-desc{
+
+        font-size: .8em;
+        line-height: 1.5em;
+        margin-bottom: 2em;
+
+    }
+
+    .icon-container{
+
+        height: 150px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+    }
+
+}
+
+.section-desc{
+    line-height: 1.5em;
+    margin-bottom: 4em;
+}
+
+.btn1, .btn2, .btn3{
+
+    display: none;
+}
+
+.portfolio{
+    .subtitle{
+        margin-bottom: 2em;
+    }
+}
+.prtfolio-container-transition3{
+    margin-bottom: 4em;
+}
+
+.subtitle2{
+
+    text-transform: uppercase;
+    color: #777777;
+    font-family: 'Lato';
+    font-size: .9em;
+    font-weight: bold;
+
+}
+
+.Project-title{
+
+    font-family: 'Lato';
+    font-size: 3em;
+    font-weight: 700;
+    margin: -.3em auto .3em;
+}
+
+.Project-desc{
+    display: none;
+}
+
+.hire{
+
+    display: none;
+
+    background: #f1f1f1;
+    padding-top: 4em;
+
+    .subtitle{
+        margin-top: 4em;
+    }
+
+   
+}
+
+.hire-me{
+
+    button{
+
+        margin-top: 3em;
+        margin-bottom: 2em;
+        cursor: pointer;
+        border: none;
+        box-shadow: none;
+        border-radius: 5px;
+        padding: .75em 2em;
+        background: none;
+        font-family: 'Lato';
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.15em;
+        background: #34ACC4;
+        outline: none;
+        color: #f1f1f1;
+
+    }
+
+    button:hover {
+
+        background: #277f91;
+    }
+        
+}
+
+
+
+footer{
+
+    background: #202020;
+    font-family: 'Lato';
+    font-size: 1em;
+    display: grid;
+    justify-content: center;
+
+
+    .logo{
+        display: none;
+    }
+
+    .img-logo{
+        margin: 2em auto;
+    }
+
+    ul
+    {
+        display: flex;
+        margin-bottom: 2em;
+
+        a{
+            margin-top: 10px;
+            font-family: 'Lato';
+            font-size: 1em;
+            font-weight: normal;
+            display: block;
+            padding: 0 1em;
+        }
+    }
+
+    .social-header-bottom{
+        display: flex;
+        margin: 0 auto;
+
+        .Behance{
+            margin-top: .15em;
+        }
+    }    
+}
+
+.footer-design{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1050px) {
+
+    .About-me, .portfolio {
+        
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .About-me, .prtfolio-container-transition3{
+
+        display: grid;
+        grid-template-columns: 40% auto;
+
+        .right{
+            display: grid;
+            text-transform: uppercase;
+            font-family: 'Lato';
+            font-weight: bold;
+            margin: 6em;
+
+            .sub-exp{
+                margin-bottom: 1em;
+            }
+
+            .bar{
+                margin-bottom: 1.5em;
+            }
+
+        }
+
+    }
+
+    .left, .portfolio-left, .Project-desc {
+
+        display: grid;
+        place-content: center;
+
+    }
+
+    .services {
+
+        padding-bottom: 0;
+
+    }
+
+    .skill-container ul {
+
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1em;
+    }
+
+    .portfolio{
+      background: #ffffff;
+      padding-top: 10em;
+      margin-top: -6em;
+    }
+
+    .prtfolio-container-transition3 {
+
+        .Project-desc{
+            font-size: .8em;
+            line-height: 1.4em;
+        }
+        
+        a{
+            margin-right: -5em;
+        }
+    }
+
+    .hero{
+
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        padding-top: 3em;
+        padding-bottom: 4em;
+        text-align: left;
+
+        img{
+            width: 100%;
+            margin-top: -1em;
+            margin-right: -25em;
+        }
+
+        .content{
+            margin-top: 8em;
+            margin-right: -3em;
+
+            .scroll{
+                width: auto;
+                margin-top: -1em;
+                margin-left: 7em;
+            }
+        }
+    }
+
+    .nav-container{
+
+        padding: 0 4em;
+        display: grid;
+        grid-template-columns: 70% auto;
+
+        .identity{
+
+            display: flex;
+
+            .logo {
+                display: grid;
+                margin: .8em;
+                justify-content: left;
+                font-family: 'Lato';
+                font-weight: bold;
+            }
+        }
+
+        ul{
+            margin-right: 3em;
+        }
+        a{
+            margin-right: 1.5em;
+        }
+
+        .social-header{
+
+            display: flex;
+            margin-top: 2.5em;
+            margin-left: auto;
+
+            .behance{
+                margin-top: .2em;
+            }
+
+            .linkedin{
+                margin-right: 3em;
+            }
+        }
+
+    }
+
+    .About-me{
+
+
+        padding-left: 6em;
+
+        .right{
+
+            margin-left: auto;
+        }
+
+        .CV-down{
+            
+            margin: 3.5em 0;
+        }
+    }
+
+    .services{
+
+
+        .subtitle{
+
+            text-align: left;
+            margin-right: 1.5em;
+        }
+
+        .p2{
+            text-align: left;
+        }
+
+        padding: 2em 6.1em;
+    }
+
+    .btn1, .btn2, .btn3{
+
+        display: block;
+    }
+
+    .portfolio{
+
+        margin-top: -8em;
+        padding: 14em 6em;
+    }
+
+    .prtfolio-container-transition3{
+
+        a{
+            margin-left: 8em;
+            width: 100%;
+        }
+
+        button{
+
+            cursor: pointer;
+            border: none;
+            box-shadow: none;
+            background: none;
+            font-family: 'Lato';
+            font-size: 1.15em;
+            text-decoration: underline #34ACC4;
+            outline: none;
+    
+        }
+    }
+
+    button:hover{
+
+        text-decoration: underline #277f91;
+    }
+
+
+    .hire{
+
+        margin-top: -11em;
+    }
+
+    .nav-container-bottom{
+        margin-top: -8em;
+    }
+    footer{
+
+        padding: 4em;
+        display: grid;
+        grid-template-columns: 30% auto auto;
+
+
+        .img-logo{
+
+            margin-top: 0em;
+            margin-left: -6em;
+        }
+
+        .logo{
+            display: block;
+            margin-top: -3.7em;
+            margin-left: -2em;
+            font-family: 'Lato';
+            font-size: 200;
+        }
+
+        ul{
+            margin-right: 1.5em;
+        }
+
+        .social-header-bottom{
+
+            margin-left: 17em;
+            margin-right: -7em;
+           
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .nav-container{
+
+        padding: 0 12em;
+    }
+
+    .hero{
+
+        overflow: hidden;
+        padding-bottom: 37em;
+
+        .face{
+            width: 45vw;
+            position: absolute;
+            left: 35em;
+        }
+
+        .content{
+
+            position: absolute;
+            left: 17.5em;
+
+        }
+
+    }
+
+    .hero::after{
+        
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4em;
+        background: #f1f1f1;
+        bottom: -2em;
+        left: 0;
+    }
+
+    .hero-design{
+
+        display: block;
+        position: absolute;
+        right: 0em;
+        width: 270px;
+    }
+
+    .About-me {
+
+        margin-top: -2em;
+        padding-top: 5em;
+
+        padding-left: 14em;
+
+        .right{
+
+            margin-left: 9em;
+        }
+    }
+
+    .services{
+
+        padding-left: 14em;
+        padding-right: 13.3em;
+
+        .p2{
+            text-align: left;
+            margin-right: 36em;
+            padding-bottom: 1em;
+        }
+    }
+
+    .portfolio{
+
+        padding-left: 14em;
+
+        .section-desc{
+
+            margin-right:  44em;
+        }
+
+        .Project-desc{
+            font-size: medium;
+        }
+    }
+
+    .btn1, .btn2, .btn3{
+
+        display: block;
+    }
+
+    footer {
+
+        padding-left: 8.8em;
+        padding-right: 8em;
+    }
+
+    .footer-design {
+
+        display: block;
+        position: absolute;
+        width: 107px;
+        bottom: 100;
+        right: 0;
+        margin-top: -12.6em;
+    }
+
+}

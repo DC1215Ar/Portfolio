@@ -1,0 +1,121 @@
+@import url("https://use.typekit.net/zhm2hsd.css");
+
+.body{
+
+    display: grid;
+    min-height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bg{
+
+    content:"";
+    position: absolute;
+    height: 15em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #f1f1f1;
+    z-index: -1;
+
+}
+
+.exit{
+
+    display: none;
+}
+
+.project-view{
+
+    display: grid;
+    grid-template-rows: auto 100px 50px;
+    
+   ul{
+    justify-self: center;
+
+       li{
+            display: grid;
+
+            img{
+
+                width: 80vw;
+            }
+            
+       }
+   } 
+}
+
+.btn{
+
+    justify-self: center;
+    padding-top: 5em;
+    margin-bottom: -5em;
+}
+
+button{
+
+    display: block;
+    border: none;
+    outline: none;
+    background: #34ACC4;
+    padding: .5em 1em;
+    color: #f1f1f1;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 1.15em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background: #277f91;
+}
+
+.btm-bg{
+
+    overflow: hidden;
+    position: relative;
+    margin-top: -12em;
+    margin-bottom: -2em;
+    height: 15em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #f1f1f1;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .project-view{
+
+        top: 15%;
+    }
+
+    .exit{
+
+        display: grid;
+        padding: 5%;
+        cursor: pointer;
+    }
+
+    .exit:hover{
+
+        fill: #202020;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .exit{
+
+        padding: 2.5%;
+    }
+}

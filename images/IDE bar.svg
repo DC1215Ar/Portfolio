@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="16" viewBox="0 0 432 16">
+  <g id="Group_22" data-name="Group 22" transform="translate(-1163 -1332)">
+    <rect id="dp_bar_1" data-name="dp bar 1" width="432" height="7" rx="3.5" transform="translate(1163 1336)" fill="#999"/>
+    <rect id="dp_bar_2" data-name="dp bar 2" width="284" height="7" rx="3.5" transform="translate(1163 1336)" fill="#202020"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="7" cy="7" r="7" transform="translate(1440 1333)" fill="#f1f1f1" stroke="#383838" stroke-width="2"/>
+  </g>
+</svg>
