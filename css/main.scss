@@ -112,6 +112,24 @@ h1{
     }
 }
 
+.circle{
+
+    animation: circAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circAnim {
+
+    from{
+        transform: translate(850.83px, -4.727px);
+        z-index: 5;
+    }
+
+    to{
+        transform: translate(850.83px, 13px);
+    }
+
+}
+
 section{
     padding: 2em 2em;
     text-align: center;

@@ -111,6 +111,34 @@ h1 {
   margin: 0px auto 50px;
 }
 
+.circle {
+  animation: circAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circAnim {
+  from {
+    -webkit-transform: translate(850.83px, -4.727px);
+            transform: translate(850.83px, -4.727px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(850.83px, 13px);
+            transform: translate(850.83px, 13px);
+  }
+}
+
+@keyframes circAnim {
+  from {
+    -webkit-transform: translate(850.83px, -4.727px);
+            transform: translate(850.83px, -4.727px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(850.83px, 13px);
+            transform: translate(850.83px, 13px);
+  }
+}
+
 section {
   padding: 2em 2em;
   text-align: center;
